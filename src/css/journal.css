@@ -1,0 +1,143 @@
+/* 日付セルにホバーした時の背景色を変える */
+td:hover {
+    background-color: #e0e0e0; /* ホバー時に背景色を変更 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+/* journal.css */
+
+.image-preview {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin: 40px 0;
+}
+.imageSaved {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 40px 0; /* Optional: space above the image */
+
+}
+
+.journal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+/* Calendar Area */
+.prevMonth {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nextMonth {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.calendar-Navi {
+    display: flex;
+    justify-content: space-around;
+
+}
+table {
+    margin: 50px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Journal Edit Area */
+.Title{
+    display: flex;
+    flex-direction: column;
+}
+.Title label {
+    margin-bottom: 10px;
+}
+.Title input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 335px;
+
+}
+
+.diary-entries {
+    margin: 10px 0;
+
+}
+.diary-entries textarea {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+ 
+.addEntry-btn {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.uploadPhotoArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageUpload {
+    margin: 10px 0 20px 0;
+}
+/* Added Entry Area */
+ul {
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+ul li h3 {
+    font-size: 34px;
+    margin: 0;
+}
+ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 350px;
+    word-wrap: break-word; /* 長い単語を折り返す */
+    white-space: pre-wrap; /* 改行を保持 */
+
+}
+
+.deleteEntryBtn {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+

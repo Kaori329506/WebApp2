@@ -1,0 +1,116 @@
+.weekDay {
+  padding: 25px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-weight: 700;
+}
+.day {
+    padding: 25px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+.dayMark {
+  color: red;
+}
+  .day:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected-day {
+    border: 2px solid #88ffe3; /* 枠線を追加 */
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .calendarNavi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .prevMonth {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nextMonth {
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+  .calendarTable {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .contentArea {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .schedArea-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .scheduleArea {
+    width: 500px;
+  }
+  .genreSelect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .genreSelect select {
+    width: 200px;
+    height: 40px;
+  }
+  .genreSelect button {
+    width: 100px;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #C2FCEE;
+    color: black;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .addedSchedList {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .addedSchedList p {
+    margin: 5px ;
+  }
+
+  .delete-icon2 {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    right: 0;
+    padding: 10px 0;
+  }
+  .delete-icon2:hover {
+    color: red;
+  }
